@@ -1,0 +1,13 @@
+body {
+background: url(../images/library.jpg);
+background-repeat: no-repeat;
+background-size: 83%;
+background-position: right top;
+
+}
+h1{
+    text-align: center;
+    color: blue;
+    background-color: bisque;
+}
+
