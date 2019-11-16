@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
+  <title>Portfolio Home</title>
 
   <!-- adding reset css file  -->
   <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
@@ -39,8 +39,9 @@
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">Applications Exhibit</a>
-      <a href="#">Resume</a>
+      <a href="index.html">Home</a>
+      <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
+      <a href="resume.html">Resume</a>
       <a href="#">About</a>
       <a href="#">Social Media</a>
       <a href="#">Contact Me</a>
@@ -49,7 +50,8 @@
 
     <br>
     <!-- <h2>Animated Sidenav Example</h2> -->
-    <span style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)" onclick="openNav()">&#9776;
+    <span style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)"
+      onclick="openNav()">&#9776;
       Menu</span>
 
     <div class="row" id="main">
@@ -57,8 +59,11 @@
       <h2>test1</h2>
       <h2>test2</h2>
       <p>test3</p>
-    </div> <!--end div for row 1-->
-    <div class="row" id="appExhibit"></div>
+    </div>
+    <!--end div for row 1-->
+    <div class="row gallery" id="appExhibit">
+      
+    </div>
     <!--end of appExhibit-->
 
   </div> <!-- end of div container -->
