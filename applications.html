@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Application Display</title>
+
+  <!-- adding reset css file  -->
+  <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--local css-->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <!-- adding local javascript file -->
+  <script type="text/javascript" src="assets/js/portfolio.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- <div class="container wrapper1 hoverable"> -->
+  <div class="container">
+
+    <h1> Lisa's Portfolio</h1>
+
+    <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+    Navbar-->
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="applications.html" id ="lisaMenu">Applications Exhibit</a>
+      <a href="resume.html">Resume</a>
+      <a href="#">About</a>
+      <a href="#">Social Media</a>
+      <a href="#">Contact Me</a>
+
+    </div> <!--  end div for nav bar-->
+
+    <br>
+    <!-- <h2>Animated Sidenav Example</h2> -->
+    <span style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)" onclick="openNav()">&#9776;
+      Menu</span>
+
+    <div class="row" id="main">
+      <!--end of main div-->
+      <h2>applications1</h2>
+      <h2>test2</h2>
+      <p>test3</p>
+    </div> <!--end div for row 1-->
+   
+    <div class="row gallery" id="appExhibit">
+      <a href="./assets/images/trainTime.jpg"> <img src="./assets/images/trainTime1.jpg" height= "200"></a>
+      <a href="./assets/images/trivia.jpg"> <img src="./assets/images/trivia1.jpg" height= "200"></a>
+      <a href="./assets/images/unit4.jpg"> <img src="./assets/images/unit41.jpg"  height= "200"></a>
+    </div>
+
+    <!--end of appExhibit-->
+
+  </div> <!-- end of div container -->
+</body>
+
+</html>
