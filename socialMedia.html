@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Home</title>
+
+    <!-- adding reset css file  -->
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--local css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+
+    <!-- JAVASCRIPT  -->
+    <!-- ========================================= -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- anime text js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+
+    <!-- adding local javascript file  -->
+    <script type="text/javascript" src="./assets/js/portfolio.js"></script>
+    <script type="text/javascript" src="./assets/js/letters.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- <div class="container wrapper1 hoverable"> -->
+    <div class="container">
+
+        <h1>Lisa's Portfolio</h1>
+
+
+
+        <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+    Navbar-->
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
+            <a href="./LisaMichaelResume.htm" target="_blank" "LisaMichaelResume.htm">Resume</a>
+            <a href="#">About</a>
+            <a href="#">Social Media</a>
+            <a href="#">Contact Me</a>
+
+        </div> <!--  end div for nav bar-->
+
+        <br>
+        <!-- <h2>Animated Sidenav Example</h2> -->
+        <span
+            style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)"
+            onclick="openNav()">&#9776;
+            Menu</span>
+
+        <div class="row container" id="main">
+
+            <!-- moving text code obtained from https://tobiasahlin.com/moving-letters/#15 -->
+
+            <!-- <h1 class="ml12">
+        <span class="word">New! </span>
+        <span class="word"> Improved !</span>
+      </h1> -->
+
+
+            <h1 class="ml2">Welcome to Social Media</h1>
+
+
+        </div>
+        <!--end div for row 1-->
+        <div class="row gallery" id="appExhibit">
+
+
+            <div class="row social1" id="socialIcons">
+                <a href="http://www.lisamichael.net"> <img src="./assets/images/Linkedin.png" height="150px"
+                        width="150px"></a>
+                <a href="https://twitter.com/sixstringgirl"> <img src="./assets/images/twitter.png"
+                        height="150px" width="150px"></a>
+
+
+            </div>
+            <div class="row social2" id="socialIcons">
+
+                <a href="https://github.com/LisaMichael"> <img src="./assets/images/github.png"
+                        height="150px" width="150px"></a>
+                <a href="https://lisamichael.github.io/unit-4-game/"> <img src="./assets/images/facebook.png"
+                        height="150px" width="150px"></a>
+
+            </div>
+        </div>
+        <!--end of appExhibit-->
+
+    </div> <!-- end of div container -->
+
+</body>
+
+</html>
