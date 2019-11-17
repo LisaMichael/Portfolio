@@ -12,17 +12,20 @@
 
   <!-- Added a link to Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--local css-->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 
   <!-- JAVASCRIPT  -->
   <!-- ========================================= -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!--local css-->
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <!-- anime text js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 
-  <!-- adding local javascript file -->
-  <script type="text/javascript" src="assets/js/portfolio.js"></script>
+  <!-- adding local javascript file  -->
+  <script type="text/javascript" src="./assets/js/portfolio.js"></script>
+  <script type="text/javascript" src="./assets/js/letters.js"></script>
 
 </head>
 
@@ -32,7 +35,9 @@
   <!-- <div class="container wrapper1 hoverable"> -->
   <div class="container">
 
-    <h1> Lisa's Portfolio</h1>
+    <h1>Lisa's Portfolio</h1>
+
+
 
     <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
     Navbar-->
@@ -41,9 +46,9 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
       <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
-      <a href="resume.html">Resume</a>
+      <a href="./LisaMichaelResume.htm" target="_blank" "LisaMichaelResume.htm">Resume</a>
       <a href="#">About</a>
-      <a href="#">Social Media</a>
+      <a href="socialMedia.html">Social Media</a>
       <a href="#">Contact Me</a>
 
     </div> <!--  end div for nav bar-->
@@ -54,19 +59,28 @@
       onclick="openNav()">&#9776;
       Menu</span>
 
-    <div class="row" id="main">
-      <!--end of main div-->
-      <h2>test1</h2>
-      <h2>test2</h2>
-      <p>test3</p>
+    <div class="row container" id="main">
+
+      <!-- moving text code obtained from https://tobiasahlin.com/moving-letters/#15 -->
+
+      <!-- <h1 class="ml12">
+        <span class="word">New! </span>
+        <span class="word"> Improved !</span>
+      </h1> -->
+
+
+      <h1 class="ml2">Welcome to my Portfolio</h1>
+
+     
     </div>
     <!--end div for row 1-->
     <div class="row gallery" id="appExhibit">
-      
+
     </div>
     <!--end of appExhibit-->
 
   </div> <!-- end of div container -->
+
 </body>
 
 </html>
