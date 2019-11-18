@@ -1,14 +1,23 @@
+
+
 body {
-  /* font-family: "Lato", sans-serif; */
-  background: url(../images/library.jpg);
+  background: url(../images/smith2.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 background-position: right top;
 }
+
+
 h1 {
   text-align: center;
-  color: #111111;
-  background-color: rgb(255, 251, 218);
+  color: #ffffff;
+  background-color: #68cefd ; 
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(106, 189, 245); 
 }
 
 .sidenav {
@@ -52,4 +61,57 @@ h1 {
 
 .row {
   margin-left: 150px;
+}
+
+.wrapper {
+  margin-top: 15px;
+  background-color: rgb(255, 251, 218);
+  height: 520px;
+  width: 1050px;
+  /* left: 350px; */
+  /* left: 40%; */
+  /* right: 40%; */
+  /* position: absolute; */
+  /* z-index: 0; */
+  } 
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.gallery {
+  margin: 10px, 50px;
+}
+
+.gallery img {
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale( 1.1);
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+p {
+  font: #ffffff;
 }
