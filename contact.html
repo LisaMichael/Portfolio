@@ -31,68 +31,71 @@
 </head>
 
 <body>
-
-    <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+    <div class="container">
+        <h1>Lisa's Portfolio</h1>
+        <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
     Navbar-->
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
-        <a href="./LisaMichaelResume.htm" target="_blank" "LisaMichaelResume.htm">Resume</a>
-        <a href="#">About</a>
-        <a href="socialMedia.html">Social Media</a>
-        <a href="contact.html">Contact Me</a>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
+            <a href="./LisaMichaelResume.htm" target="_blank" "LisaMichaelResume.htm">Resume</a>
+            <a href="about.html">About</a>
+            <a href="socialMedia.html">Social Media</a>
+            <a href="contact.html">Contact Me</a>
 
-    </div> <!--  end div for nav bar-->
+        </div> <!--  end div for nav bar-->
 
-    <!-- <h2>Animated Sidenav Example</h2> -->
-    <span style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)"
-        onclick="openNav()">&#9776;
-        Menu</span>
+        <!-- <h2>Animated Sidenav Example</h2> -->
+        <span
+            style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)"
+            onclick="openNav()">&#9776;
+            Menu</span>
 
     </div>
 
     <div class="container wrapper">
 
         <!--Section: Contact v.2-->
-        <section class="mb-4">
+        <!-- <section class="mb-4"> -->
 
-            <!--Section heading-->
-            <h3 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h3>
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5"> Please feel free to leave me a message.</p>
+        <!--Section heading-->
+        <h4 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h4>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5"> Please feel free to leave me a message.</p>
 
-            <div class="row">
+        <div class="row">
 
-                <!-- Entry Form -->
-                <form>
-                    <div class="form-group" >
-                        <label for="name-input">Name</label>
-                        <input class="form-control" id="name-input" placeholder="Name" type="text">
-                    </div>
-                    <div class="form-group">
-                        <label for="role-input">email</label>
-                        <input class="form-control" id="email-input" placeholder="Email" type="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="start-input">Subject</label>
-                        <input class="form-control" id="subject-input" placeholder="Subject" input type="text"
-                            name="time" />
-                    </div>
-                    <div class="form-group">
-                        <label for="message-input col-md-12">Message</label>
-                        <input class="form-control" id="message-input" placeholder="Leave message here" type="text">
-                    </div>
-                    <button class="btn btn-primary float-left" id="add-train-btn">Submit</button>
-                </form>
-            </div>
-        </section>
+            <!-- Entry Form -->
+            <form>
+                <div class="form-group">
+                    <label for="name-input">Name</label>
+                    <input class="form-control" id="name-input" placeholder="Name" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="role-input">email</label>
+                    <input class="form-control" id="email-input" placeholder="Email" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="start-input">Subject</label>
+                    <input class="form-control" id="subject-input" placeholder="Subject" input type="text"
+                        name="time" />
+                </div>
+                <div class="form-group">
+                    <label for="message-input col-md-12">Message</label>
+                    <input class="form-control" id="message-input" placeholder="Leave message here" type="text">
+                </div>
+                <button class="btn btn-primary float-left" id="add-train-btn">Submit</button>
+            </form>
+        </div>
+        <!-- </section> -->
         <!--Section: Contact v.2-->
 
 
     </div>
-
+    </div>
+    <!--end div of container-->
 </body>
 
 </html>
