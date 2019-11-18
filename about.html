@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+
+    <!-- adding reset css file  -->
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--local css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+
+    <!-- JAVASCRIPT  -->
+    <!-- ========================================= -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- anime text js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+
+    <!-- adding local javascript file  -->
+    <script type="text/javascript" src="./assets/js/portfolio.js"></script>
+    <script type="text/javascript" src="./assets/js/letters.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- <div class="container wrapper1 hoverable"> -->
+    <div class="container">
+
+        <h1>Lisa Michael</h1>
+
+
+
+        <!-- side navbar code obtained from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+    Navbar-->
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="applications.html" id="lisaMenu">Applications Exhibit</a>
+            <a href="./LisaMichaelResume.htm" target="_blank" "LisaMichaelResume.htm">Resume</a>
+            <a href="#">About</a>
+            <a href="socialMedia.html">Social Media</a>
+            <a href="contact.html">Contact Me</a>
+
+        </div> <!--  end div for nav bar-->
+
+        <!-- <h2>Animated Sidenav Example</h2> -->
+        <span
+            style="padding: 5px; border-block: #111; font-size:30px;cursor:pointer;background-color:rgb(255, 251, 218)"
+            onclick="openNav()">&#9776;
+            Menu</span>
+
+        <div class="row container" id="main">
+                <h3 id ="about">About the Developer</h3>
+            <!-- moving text code obtained from https://tobiasahlin.com/moving-letters/#15 -->
+
+
+        </div>
+        <!--end div for row 1-->
+        <div class="row wrapper">
+                
+            <img id="lisa" src="./assets/images/lisa1.jpg" height="150px" >
+
+            <p id="bio">Lisa Michael is currently employed with HCL Tehchnologies in Chelmsford Massachusetts. She has over 20 yrs experience in providing Technical support with IBM for various applications for the Lotus / Domino software brand. She has been a member of the Domino Mail Routing Team, Domino Crash and Performance. Sametime Instant Messaging. She has expert knowledge in TCPIP, SMTP, IMAP, SIP, NRPC and HTTP protocols. In May of 2019, Lisa joined the HCL Federal Support center, providing support for HCL's Federal Customers. She now supports: Websphere Portal, HCL BIg Fix, Websphere Commerce, Sametime, Lotus Domino, Websphere Connections and Unica.  </p>
+            <p id="bio"> She is currently a student at Harvard Extension School learning to become a Full Stack Web Developer. She is learning HTML, CSS, Bootstrap, JQuery, NodeJS, Mongo, MySQL and more.  </p>
+        </div>
+        <!--end of appExhibit-->
+
+    </div> <!-- end of div container -->
+
+</body>
+
+</html>
