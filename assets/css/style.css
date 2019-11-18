@@ -1,7 +1,7 @@
 
 
 body {
-  background: url(../images/smith2.jpg);
+  background: url(../images/boston1.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
 background-position: right top;
@@ -10,14 +10,14 @@ background-position: right top;
 
 h1 {
   text-align: center;
-  color: #ffffff;
-  background-color: #68cefd ; 
+  color: rgb(255, 251, 218);
+  background-color: #49474d ; 
 }
 
 h2 {
   text-align: center;
-  color: #ffffff;
-  background-color: rgb(106, 189, 245); 
+  color: rgb(255, 251, 218);
+  background-color: #49474d; 
 }
 
 .sidenav {
@@ -27,7 +27,7 @@ h2 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:rgb(255, 251, 218);
+  background-color: #49474d; 
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -37,7 +37,7 @@ h2 {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #111111;
+  color: rgb(216, 214, 203);
   display: block;
   transition: 0.3s;
 }
@@ -64,8 +64,8 @@ h2 {
 }
 
 .wrapper {
-  margin-top: 15px;
-  background-color: rgb(255, 251, 218);
+  margin-top: 10px;
+  background-color: rgb(216, 214, 203);
   height: 520px;
   width: 800px;
   /* left: 350px; */
