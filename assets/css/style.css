@@ -137,4 +137,6 @@ p {
 #appfont {
   color: rgb(216, 214, 203);
   background-color: black;
+  font-weight: bold;
+  margin-left: 160px;
 }
