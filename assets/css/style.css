@@ -129,3 +129,12 @@ p {
   padding: 10px;
   float: left;
 }
+
+.form-group {
+  width: 90%;
+}
+
+#appfont {
+  color: rgb(216, 214, 203);
+  background-color: black;
+}
