@@ -57,6 +57,8 @@ h2 {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+  h1{font-size: 5 rem;}
 }
 
 .row {
@@ -118,7 +120,7 @@ p {
 
 #lisa {
   margin: 30px;
-  
+  float: left;
 }
 
 #about {
@@ -127,7 +129,9 @@ p {
 }
 #bio {
   padding: 10px;
-  float: left;
+  /* float: right; */
+  /* clear: both; */
+  display: inline;
 }
 
 .form-group {
